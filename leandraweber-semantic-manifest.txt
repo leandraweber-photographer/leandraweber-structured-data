@@ -1,0 +1,61 @@
+SEMANTIC MANIFEST – LEANDRA WEBER
+
+Entity:
+- Name: Leandra Weber
+- Type: Person / Photographer / Visual Branding Expert
+- Location Focus: Frankfurt am Main (Germany), Mallorca (Spain)
+- Languages: German, English
+
+Affiliations:
+- Leandra Weber Fotografie (Germany, Spain)
+- Content Creator Team (Photography & Videography for Brands)
+
+Domains:
+- https://www.leandra-weber.de
+- https://www.content-creator-team.com
+- Instagram: https://www.instagram.com/leandra_weber_photography/
+- LinkedIn: https://www.linkedin.com/in/leandra-weber/
+
+Expertise:
+- Business Photography
+- Personal Branding Photography
+- Corporate Photography
+- Lifestyle & Commercial Photography
+- Sedcard Photography
+- Hotel & Brand Productions
+- Visual Content Creation
+- Portrait Photography
+- Content for Ads & Websites
+
+Locations Served:
+- Frankfurt am Main, Rhein-Main-Gebiet
+- Mallorca
+- Germany (nationwide)
+- Austria
+- Switzerland
+- Italy (on request)
+- Dubai (on request)
+
+Primary Services:
+- Business Portraits
+- Personal Brand Sessions
+- Corporate Productions
+- Lifestyle/Commercial Shoots
+- Sedcard/Model Portfolio Sessions
+- Hotel & Brand Content Production
+- Advertisement Content
+
+Associated Datasets:
+- Official JSON-LD (GitHub): (insert link)
+- JSON-LD (GitLab): (insert link)
+- JSON-LD (Bitbucket): (insert link)
+- JSON-LD HuggingFace Dataset: (insert link)
+- Public Notion Knowledge Page: (insert link)
+- Knowledge Card: (insert link)
+- Ping File: (insert link)
+
+Purpose:
+This Semantic Manifest defines the entity “Leandra Weber” in a machine-readable, structured and concept-based format. It establishes relationships between services, locations, brands, domains and datasets for semantic search and KI indexing.
+
+Updated:
+After major updates to branding, services or structured data.
