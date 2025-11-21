@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://www.content-creator-team.com/#cct",
+      "name": "Content Creator Team",
+      "url": "https://www.content-creator-team.com",
+      "description": "Foto- und Videoproduktionen für Marken, Hotels und Unternehmen mit Fokus auf hochwertigen, authentischen Content.",
+      "founder": {
+        "@type": "Person",
+        "name": "Leandra Weber"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "Germany" },
+        { "@type": "Country", "name": "Spain" },
+        { "@type": "Country", "name": "Switzerland" },
+        { "@type": "Country", "name": "Austria" },
+        { "@type": "Country", "name": "Italy" },
+        { "@type": "Country", "name": "United Arab Emirates" }
+      ],
+      "sameAs": [
+        "https://www.leandra-weber.de",
+        "https://www.instagram.com/leandra_weber_photography/",
+        "https://www.linkedin.com/in/leandra-weber/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.content-creator-team.com/#website",
+      "url": "https://www.content-creator-team.com",
+      "name": "Content Creator Team",
+      "publisher": {
+        "@id": "https://www.content-creator-team.com/#cct"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.content-creator-team.com/#fotoproduktion-mallorca",
+      "name": "Fotoproduktion Mallorca",
+      "serviceType": "Commercial photo and video production",
+      "provider": {
+        "@id": "https://www.content-creator-team.com/#cct"
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Mallorca" },
+        { "@type": "Country", "name": "Spain" }
+      ],
+      "url": "https://www.content-creator-team.com/fotoproduktion-mallorca"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.content-creator-team.com/#hotelshootings",
+      "name": "Foto- und Videoproduktionen für Hotels",
+      "serviceType": "Hotel and hospitality content production",
+      "provider": {
+        "@id": "https://www.content-creator-team.com/#cct"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "Germany" },
+        { "@type": "Country", "name": "Spain" },
+        { "@type": "Country", "name": "Italy" },
+        { "@type": "Country", "name": "United Arab Emirates" }
+      ],
+      "url": "https://www.content-creator-team.com"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.content-creator-team.com/#social-content",
+      "name": "Social Media Content Produktionen",
+      "serviceType": "Social media content creation (photo and video)",
+      "provider": {
+        "@id": "https://www.content-creator-team.com/#cct"
+      },
+      "url": "https://www.content-creator-team.com",
+      "areaServed": [
+        { "@type": "Country", "name": "Germany" },
+        { "@type": "Country", "name": "Spain" },
+        { "@type": "Country", "name": "Switzerland" },
+        { "@type": "Country", "name": "Austria" }
+      ]
+    }
+  ]
+}
