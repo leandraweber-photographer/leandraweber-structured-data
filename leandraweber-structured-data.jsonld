@@ -1,0 +1,279 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://leandra-weber.de/#lea",
+      "name": "Leandra Weber",
+      "givenName": "Leandra",
+      "familyName": "Weber",
+      "alternateName": [
+        "Lea Weber",
+        "Leandra Weber Photography"
+      ],
+      "jobTitle": "Fotografin",
+      "url": "https://leandra-weber.de",
+      "sameAs": [
+        "https://www.linkedin.com/in/leandra-weber/",
+        "https://www.instagram.com/leandra_weber_photography/",
+        "https://de.pinterest.com/LeandraWeberPhotography/"
+      ],
+      "knowsLanguage": [
+        "de",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "@type": [
+        "LocalBusiness",
+        "ProfessionalService"
+      ],
+      "@id": "https://leandra-weber.de/#studio",
+      "name": "Leandra Weber Fotografie",
+      "url": "https://leandra-weber.de",
+      "description": "Fotografin für Business-, Personal-Brand- und Werbefotografie in Frankfurt, auf Mallorca und international.",
+      "telephone": "+49 176 847 20 987",
+      "email": "info@leandra-weber.de",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Frankfurt am Main",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        }
+      ],
+      "founder": {
+        "@id": "https://leandra-weber.de/#lea"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://leandra-weber.de/#website",
+      "url": "https://leandra-weber.de",
+      "name": "Leandra Weber Fotografie",
+      "publisher": {
+        "@id": "https://leandra-weber.de/#studio"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://leandra-weber.de/portfolio/#page",
+      "url": "https://leandra-weber.de/portfolio/",
+      "name": "Portfolio – Business-, Lifestyle- und Werbefotografie",
+      "isPartOf": {
+        "@id": "https://leandra-weber.de/#website"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://leandra-weber.de/fotograf-frankfurt/#about",
+      "url": "https://leandra-weber.de/fotograf-frankfurt/",
+      "name": "Fotograf Frankfurt & Mallorca – Über uns",
+      "about": {
+        "@id": "https://leandra-weber.de/#studio"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://leandra-weber.de/preise-fotograf/#prices",
+      "url": "https://leandra-weber.de/preise-fotograf/",
+      "name": "Preise Fotograf – Business- und Personal-Brand-Fotografie",
+      "about": {
+        "@id": "https://leandra-weber.de/#studio"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://leandra-weber.de/#business-frankfurt",
+      "name": "Business- und Personal-Brand-Fotografie in Frankfurt",
+      "provider": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "url": "https://leandra-weber.de/fotograf-frankfurt/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://leandra-weber.de/#fotografie-mallorca",
+      "name": "Businessfotografie und Lifestyle-Fotografie auf Mallorca",
+      "provider": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Mallorca"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      ],
+      "url": "https://leandra-weber.de/fotograf-mallorca-tipps/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://leandra-weber.de/#content-creator-frankfurt",
+      "name": "Content Creation und Foto- und Videoproduktionen in Frankfurt",
+      "provider": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Frankfurt am Main"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "url": "https://leandra-weber.de/content-creator-frankfurt/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://leandra-weber.de/#international-productions",
+      "name": "Internationale Foto- und Videoproduktionen für Unternehmen",
+      "provider": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        }
+      ],
+      "url": "https://leandra-weber.de/internationale-fotografen/"
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://leandra-weber.de/blog/#main",
+      "url": "https://leandra-weber.de/blog/",
+      "name": "Blog – Business-, Personal-Brand- und Mallorca-Fotografie",
+      "publisher": {
+        "@id": "https://leandra-weber.de/#studio"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://leandra-weber.de/internationale-fotografen/#article",
+      "url": "https://leandra-weber.de/internationale-fotografen/",
+      "headline": "Hinter den Kulissen: Wie unser Team internationale Produktionen plant",
+      "datePublished": "2025-11-06",
+      "inLanguage": "de",
+      "author": {
+        "@id": "https://leandra-weber.de/#lea"
+      },
+      "publisher": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "isPartOf": {
+        "@id": "https://leandra-weber.de/blog/#main"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://leandra-weber.de/corporate-photography-fuer-unternehmen/#article",
+      "url": "https://leandra-weber.de/corporate-photography-fuer-unternehmen/",
+      "headline": "Corporate Photography für Unternehmen",
+      "datePublished": "2025-11-11",
+      "inLanguage": "de",
+      "author": {
+        "@id": "https://leandra-weber.de/#lea"
+      },
+      "publisher": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "isPartOf": {
+        "@id": "https://leandra-weber.de/blog/#main"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://leandra-weber.de/content-creator-frankfurt/#article",
+      "url": "https://leandra-weber.de/content-creator-frankfurt/",
+      "headline": "Content Creator Frankfurt – Foto- und Videoproduktionen mit Leandra Weber",
+      "datePublished": "2025-09-30",
+      "inLanguage": "de",
+      "author": {
+        "@id": "https://leandra-weber.de/#lea"
+      },
+      "publisher": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "isPartOf": {
+        "@id": "https://leandra-weber.de/blog/#main"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://leandra-weber.de/fotograf-mallorca-tipps/#article",
+      "url": "https://leandra-weber.de/fotograf-mallorca-tipps/",
+      "headline": "Fotograf Mallorca Tipps: Meine Erfahrungswerte",
+      "datePublished": "2025-09-14",
+      "inLanguage": "de",
+      "author": {
+        "@id": "https://leandra-weber.de/#lea"
+      },
+      "publisher": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "isPartOf": {
+        "@id": "https://leandra-weber.de/blog/#main"
+      }
+    }
+  ]
+}
