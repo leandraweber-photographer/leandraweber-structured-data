@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Place",
+      "@id": "https://leandra-weber.de/#frankfurt",
+      "name": "Fotostudio und Standort Frankfurt",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Frankfurt am Main",
+        "addressCountry": "DE"
+      }
+    },
+    {
+      "@type": "Place",
+      "@id": "https://leandra-weber.de/#mallorca",
+      "name": "Standort Mallorca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mallorca",
+        "addressCountry": "ES"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://leandra-weber.de/#fotograf-frankfurt-service",
+      "name": "Fotograf Frankfurt – Business- und Personal-Brand-Fotografie",
+      "serviceType": "Business photography, personal brand photography, corporate photography",
+      "provider": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Frankfurt am Main" },
+        { "@type": "Country", "name": "Germany" },
+        { "@type": "Country", "name": "Switzerland" },
+        { "@type": "Country", "name": "Austria" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Business- und Personal-Brand-Fotografie Pakete Frankfurt",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Business-Shooting Frankfurt",
+            "url": "https://leandra-weber.de/preise-fotograf/"
+          }
+        ]
+      },
+      "url": "https://leandra-weber.de/fotograf-frankfurt/",
+      "keywords": [
+        "Fotograf Frankfurt",
+        "Businessfotograf Frankfurt",
+        "Personal Brand Fotograf Frankfurt",
+        "Corporate Fotografie Frankfurt"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://leandra-weber.de/#fotograf-mallorca-service",
+      "name": "Fotograf Mallorca – Business- und Lifestyle-Fotografie",
+      "serviceType": "Business photography, lifestyle photography, personal brand photography",
+      "provider": {
+        "@id": "https://leandra-weber.de/#studio"
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Mallorca" },
+        { "@type": "Country", "name": "Spain" },
+        { "@type": "Country", "name": "Germany" },
+        { "@type": "Country", "name": "Switzerland" },
+        { "@type": "Country", "name": "Austria" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Business- und Lifestyle-Shootings auf Mallorca",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Business-Shooting Mallorca",
+            "url": "https://leandra-weber.de/preise-fotograf/"
+          }
+        ]
+      },
+      "url": "https://leandra-weber.de/fotograf-mallorca-tipps/",
+      "keywords": [
+        "Fotograf Mallorca",
+        "Businessfotograf Mallorca",
+        "Personal Brand Fotograf Mallorca",
+        "Fotoshooting Mallorca Business",
+        "Fotoproduktion Mallorca"
+      ]
+    }
+  ]
+}
